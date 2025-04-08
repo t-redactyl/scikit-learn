@@ -5,5 +5,6 @@
 
 from ._multilayer_perceptron import MLPClassifier, MLPRegressor
 from ._rbm import BernoulliRBM
+from ._transformer import GPTTransformer
 
-__all__ = ["BernoulliRBM", "MLPClassifier", "MLPRegressor"]
+__all__ = ["BernoulliRBM", "MLPClassifier", "MLPRegressor", "GPTTransformer"]
